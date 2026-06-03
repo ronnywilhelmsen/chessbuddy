@@ -58,6 +58,7 @@ Product and federation decisions live under **`docs/governance/chessbuddy/`**. T
 | [CB-005](docs/governance/chessbuddy/CB-005-learningtrace-product-schema.md) | LearningTrace Product Schema |
 | [CB-006](docs/governance/chessbuddy/CB-006-user-modes.md) | User Modes |
 | [CB-007](docs/governance/chessbuddy/CB-007-physical-chess-and-amr-product-requirements.md) | Physical Chess & AMR Product Requirements |
+| [ALP-1](docs/governance/chessbuddy/ALP-1-artifact-learning-pilot.md) | Artifact Learning Pilot (Federation experiment) |
 
 ---
 
