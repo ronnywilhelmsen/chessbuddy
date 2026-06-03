@@ -4,16 +4,29 @@
 |-------|-------|
 | **Document ID** | ALP-1 |
 | **Title** | Artifact Learning Pilot |
-| **Version** | Draft 1 |
+| **Version** | Draft 1 (Approved) |
 | **Strategic significance** | Very High |
 | **Scope** | Federation-wide |
-| **Classification** | Experimental Validation |
-| **Status** | Draft 1 — Executed |
+| **Classification** | Experimental Validation — **Reference Experiment** |
+| **Status** | Approved Draft 1 |
+| **Steward approval** | 2026-06-02 — ALP-1 adopted as federation reference experiment for Continuity-Based Learning (artifact path) |
 | **Repository** | ChessBuddy |
 | **Primary artifact** | `README.md` |
 | **Source documents** | CB-000, CB-001 |
 | **Learner** | Machine (automated reasoning system) |
 | **Steward** | Human (observes and evaluates progression) |
+
+---
+
+## Steward approval record
+
+| Field | Value |
+|-------|-------|
+| **Decision** | **Approved** — Draft 1 adopted as federation reference experiment |
+| **Date** | 2026-06-02 |
+| **Authority** | Human steward |
+| **Effect** | ALP-1 is the canonical template for artifact-driven Continuity-Based Learning (FLL-0) |
+| **Qualifications retained** | Grounding documents required for summary artifacts; P4 behavioural test still recommended |
 
 ---
 
@@ -34,7 +47,7 @@ Validate **Continuity-Based Learning** through a single federation artifact: whe
 
 > An artifact can produce **observable**, **traceable**, **replayable**, and **transformable** learning within a machine system.
 
-**Pilot verdict (Draft 1):** **Supported with qualifications** — see §12 Findings.
+**Pilot verdict (Draft 1):** **Supported with qualifications** — see §12 Findings. **Steward-approved** as reference experiment.
 
 ---
 
@@ -86,7 +99,7 @@ Validate **Continuity-Based Learning** through a single federation artifact: whe
 
 ## Recommendation
 
-**Approve ALP-1 Draft 1** as reference experiment for Continuity-Based Learning. **Proceed** with ALP-2 on architecture document (CB-000A) and steward-reviewed transformation behavioural test. **Require** linked source documents when artifact is summary-only (README case).
+**Approved (Draft 1):** ALP-1 is the **federation reference experiment** for Continuity-Based Learning on artifact-runtime (**FLL-0**). **Proceed** with ALP-2 on CB-000A and steward-reviewed transformation behavioural test (P4). **Require** linked source documents when entry artifact is summary-only (README pattern).
 
 ---
 
@@ -406,7 +419,7 @@ Has learning changed system behaviour?
 | Recommendation change | 0.93 |
 | Planning change | 0.86 (roadmap detail needs CB-003) |
 
-**Steward gate:** Transformation **provisionally accepted** pending human confirmation of TR-1–TR-5 in live task.
+**Steward gate:** Transformation **accepted for reference experiment scope**; behavioural confirmation of TR-1–TR-5 in live task remains recommended (P4).
 
 ---
 
@@ -513,13 +526,13 @@ ChessBuddy remains **FLL-1 for domain-runtime** validation; **ALP-1 is FLL-0 for
 
 | Priority | Recommendation |
 |----------|----------------|
-| P0 | **Approve ALP-1** as reference experiment for artifact learning |
-| P1 | Require **grounding documents** when entry artifact is summary (README pattern) |
+| P0 | ~~Approve ALP-1~~ **Done** — Approved as reference experiment (2026-06-02) |
+| P1 | **Active** — Require **grounding documents** when entry artifact is summary (README pattern) |
 | P2 | Run **ALP-2** on CB-000A (dense architecture doc) — compare completeness scores |
 | P3 | Define **Artifact LearningTrace schema** (federation, informed by LT-ALP1-CB-README-001) |
 | P4 | Add steward **behavioural acceptance test** post-pilot (e.g. machine reviews dummy PR) |
 | P5 | Link ALP-1 to CB-005 — product LearningTrace vs artifact LearningTrace distinction |
-| P6 | Update README with link to ALP-1 (optional, steward decision) |
+| P6 | ~~Update README~~ **Done** — ALP-1 linked in governance index |
 
 ---
 
@@ -532,5 +545,6 @@ ChessBuddy remains **FLL-1 for domain-runtime** validation; **ALP-1 is FLL-0 for
 
 ---
 
-**Document status:** Draft 1 — Executed, pending steward approval  
+**Document status:** Approved Draft 1 — Reference experiment (FLL-0)  
+**Reference trace:** `LT-ALP1-CB-README-001`  
 **Next experiment:** ALP-2 (proposed: CB-000A artifact)
