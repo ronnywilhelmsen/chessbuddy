@@ -550,7 +550,7 @@ flowchart TB
 | P0 | **Approve ALP-2 Draft 1** as meta-learning reference experiment (FLL-0M) |
 | P1 | **Approve CB-000A** with required amendments G-1, G-2 |
 | P2 | Publish **Artifact LearningTrace** vs **Meta-LearningTrace** distinction |
-| P3 | Run **ALP-3** multi-artifact continuity (CB-000A → CB-005) |
+| P3 | ~~Run ALP-3~~ **Done** — see [ALP-3](ALP-3-multi-artifact-learning-pilot.md) |
 | P4 | Update CB-000A per G-1..G-4 before FCA-001 |
 | P5 | Link ALP-2 from ALP-1 Future Research (completed) |
 
