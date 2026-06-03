@@ -4,12 +4,26 @@
 |-------|-------|
 | **Document ID** | ALP-3 |
 | **Title** | Multi-Artifact Learning Pilot |
-| **Version** | Draft 1 |
+| **Version** | Draft 1 (Approved) |
 | **Strategic significance** | Critical |
 | **Scope** | Federation-wide |
-| **Classification** | Cross-Artifact Learning Validation |
-| **Status** | Draft 1 — Executed |
-| **Parent experiments** | [ALP-1](ALP-1-artifact-learning-pilot.md) (FLL-0 ✓), [ALP-2](ALP-2-longitudinal-learning-model-pilot.md) (FLL-0M proposed) |
+| **Classification** | Cross-Artifact Learning Validation — **Reference Experiment** |
+| **Status** | Approved Draft 1 |
+| **Designation** | **FLL-0X** — Cross-Artifact Learning Reference |
+| **Steward approval** | 2026-06-02 — ALP-3 adopted as federation cross-artifact learning reference experiment |
+| **Parent experiments** | [ALP-1](ALP-1-artifact-learning-pilot.md) (FLL-0 ✓), [ALP-2](ALP-2-longitudinal-learning-model-pilot.md) (FLL-0M) |
+
+---
+
+## Steward approval record
+
+| Field | Value |
+|-------|-------|
+| **Decision** | **Approved** — Draft 1 adopted as **FLL-0X Cross-Artifact Learning Reference** |
+| **Date** | 2026-06-02 |
+| **Authority** | Human steward |
+| **Effect** | ALP-3 is the canonical template for multi-artifact Continuity-Based Learning integration |
+| **Qualifications retained** | Governance Bundle v1 (A1–A6); CB-003–007 outside bundle; behavioural test (ALP-1 P4) still recommended |
 
 ---
 
@@ -29,7 +43,7 @@ Validate **cross-artifact learning**: whether a machine can integrate learning f
 
 > A machine can **learn from multiple artifacts**, **integrate** learning across them, **resolve contradictions**, identify **reinforcing concepts**, and construct **unified understanding** while preserving traceability.
 
-**Pilot verdict (Draft 1):** **Supported** — integrated model emerged; one soft tension resolved; missing concepts catalogued. Pending steward approval for FLL-0X reference status.
+**Pilot verdict (Draft 1):** **Supported** — integrated model emerged; contradictions resolved; missing concepts catalogued. **Steward-approved** as FLL-0X reference experiment.
 
 ## Artifact bundle
 
@@ -89,7 +103,7 @@ Validate **cross-artifact learning**: whether a machine can integrate learning f
 
 ## Recommendation
 
-**Propose steward approval** of ALP-3 as **cross-artifact learning reference (FLL-0X)**. **Publish** governance bundle manifest for ChessBuddy v1. **Amend** README to mark CB-000A/CB-002/CB-005 approval status when stewards approve.
+**Approved (Draft 1):** ALP-3 is **FLL-0X Cross-Artifact Learning Reference**. **Publish** governance bundle manifest for ChessBuddy v1 (P1). **Amend** README/CB-* approval markers when individual CB documents are steward-approved.
 
 ---
 
@@ -486,7 +500,7 @@ Every node in K, W, S, T lists `{artifact: [A*], or-id: [...]}`.
 |-------|------------|--------|
 | Artifact | ALP-1 FLL-0 | Approved |
 | Meta | ALP-2 FLL-0M | Proposed |
-| **Cross-artifact** | **ALP-3 FLL-0X** | **Executed — propose approve** |
+| **Cross-artifact** | **ALP-3 FLL-0X** | **Approved ✓** |
 
 ---
 
@@ -494,12 +508,12 @@ Every node in K, W, S, T lists `{artifact: [A*], or-id: [...]}`.
 
 | Priority | Recommendation |
 |----------|----------------|
-| P0 | **Approve ALP-3 Draft 1** as cross-artifact reference (FLL-0X) |
-| P1 | Publish **ChessBuddy Governance Bundle v1** (A1–A6 minimum) |
+| P0 | ~~Approve ALP-3~~ **Done** — FLL-0X approved (2026-06-02) |
+| P1 | **Active** — Publish **ChessBuddy Governance Bundle v1** (A1–A6 minimum) |
 | P2 | Add **CB-006** to ALP-4 bundle before behaviour claims |
 | P3 | Steward-resolve **C-4** (Draft vs Approved CB-000A, CB-002, CB-005) |
 | P4 | Implement **FAM-001** manifest file listing bundle + status |
-| P5 | Link ALP-3 from README governance table |
+| P5 | ~~Link ALP-3~~ **Done** — README governance index |
 
 ---
 
@@ -513,6 +527,6 @@ Every node in K, W, S, T lists `{artifact: [A*], or-id: [...]}`.
 
 ---
 
-**Document status:** Draft 1 — Executed, pending steward approval  
+**Document status:** Approved Draft 1 — **FLL-0X Cross-Artifact Learning Reference**  
 **Reference trace:** `LT-ALP3-CROSS-001`  
-**Classification target:** Cross-Artifact Learning Reference (FLL-0X)
+**Minimum onboarding bundle:** README + CB-000 + CB-001 + CB-000A + CB-002 + CB-005
