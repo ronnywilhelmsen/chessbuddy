@@ -92,7 +92,8 @@ Validate **Continuity-Based Learning** through a single federation artifact: whe
 
 ## Future Research
 
-- ALP-2: PGN artifact (skill domain runtime + artifact)
+- ~~ALP-2: CB-000A meta-learning~~ **Done** — see [ALP-2](ALP-2-longitudinal-learning-model-pilot.md)
+- ALP-3: PGN or multi-artifact continuity
 - ALP-3: Multi-artifact continuity (README → CB-003 → code)
 - Automated CTV for artifact learning claims
 - IM-1 for machine Perceived vs Measured understanding
